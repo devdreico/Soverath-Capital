@@ -1,0 +1,41 @@
+:root {
+  --font-sans: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --g-050: #fafafa;
+  --g-100: #f4f4f4;
+  --g-200: #ececec;
+  --g-300: #e4e4e4;
+  --g-400: #cfcfcf;
+  --g-500: #a8a8a8;
+  --g-600: #767676;
+  --g-700: #565656;
+  --g-800: #3a3a3a;
+  --g-900: #1c1c1c;
+  --g-950: #101010;
+  --g-1000: #0a0a0a;
+
+  --bg: var(--g-050);
+  --surface: #ffffff;
+  --surface-alt: var(--g-100);
+  --ink: var(--g-1000);
+  --ink-soft: var(--g-800);
+  --muted: var(--g-600);
+  --line: var(--g-300);
+  --line-strong: var(--g-400);
+
+  --dark-bg: var(--g-950);
+  --dark-surface: var(--g-900);
+  --dark-line: #2b2b2b;
+  --dark-ink: #f4f4f4;
+  --dark-muted: #9c9c9c;
+
+  --radius: 2px;
+  --radius-lg: 4px;
+  --container: 1180px;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  --section-y: clamp(4.5rem, 9vw, 7.5rem);
+
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.05), 0 14px 34px rgba(0, 0, 0, 0.06);
+  --shadow-panel: 0 24px 70px rgba(0, 0, 0, 0.18);
+  --transition: 180ms cubic-bezier(0.2, 0.6, 0.3, 1);
+}
